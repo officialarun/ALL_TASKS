@@ -1,12 +1,12 @@
 # A 3 Tier Arichitecture made using terraform on AWS
 
-# Lakshit Tyagi
+# Arun Kumar Pandey
 
 #This is my Devops Project for my personal learning, where i made a 3 tier AWS archtecture using terraform
 
 #This code may have some issue bcz i made from scratch
 
-#Feel Free to Correct me
+#All tasks 
 
 <Latest Update>
 # Recently Added a Terraform.tf vars file
