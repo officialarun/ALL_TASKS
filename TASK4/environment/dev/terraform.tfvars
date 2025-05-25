@@ -18,7 +18,7 @@ tags_subnet = { Name = "app-subnet" }
 cidr_block_subnet = "10.0.1.0/24"
 availability_zone = "us-east-1a"
 name_prefix = "dev"
-Owner = "Lakshit"
+Owner = "Arun"
 image_id = "ami-0abc12345def67890"
 instance_type = "t3.micro"
 device_name = "/dev/xvda"
@@ -27,7 +27,7 @@ desired_capacity = 1
 min_size = 1
 max_size = 2
 vpc_zone_identifier = ["subnet-77e8b631", "subnet-2457cf52"]
-key_name = "lukky.pem"
+key_name = "arun.pem"
 health_check_type = "EC2"
 force_delete = true
 version = "v1"
@@ -72,20 +72,20 @@ listener_ssl_policy = ""
 listener_certificate_arn = ""
 listener_type = "forward"
 
-ssh_key_name = "lukky.pem"
+ssh_key_name = "arun.pem"
 public_key = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAI3hGSXPAvcFGpItOpX5vfhTTwAh0AOE6pncWYGUvMREZLakshit adapted"
 
-database_cluster_identifier = "lukky-db-cluster"
+database_cluster_identifier = "arun-db-cluster"
 database_cluster_engine = "aurora"
 database_cluster_engine_version = "5.7.mysql_aurora.2.07.1"
 database_cluster_availability_zones = ["us-east-1a", "us-east-1b"]
-database_name = "db_lukky"
-database_cluster_master_username = "Lakshit"
+database_name = "db_arun"
+database_cluster_master_username = "Arun"
 database_cluster_master_password = "123456"
 database_cluster_backup_retention_period = 7
 database_cluster_preferred_backup_window = "07:00-09:00"
 database_instance_count = 1
-database_instance_identifier = "lukky-db-instance"
+database_instance_identifier = "arun-db-instance"
 database_instance_instance_class = "db.t3.medium"
 
 
